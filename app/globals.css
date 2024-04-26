@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+}
+.Welcome-text {
+  background: linear-gradient(
+      0deg,
+      rgba(158, 141, 193, 0.4),
+      rgba(158, 141, 193, 0.4)
+    ),
+    linear-gradient(90.01deg, #e498ff 0.01%, #7b4bfd 50.01%, #aa56fd 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Welcome-box {
+  isolation: isolate;
+  overflow: hidden;
+  align-items: center;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+  box-shadow: inset 0 -7px 11px #3d3c40;
+  display: flex;
+
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+}
+
+.button-primary {
+  background: linear-gradient(
+      180deg,
+      rgba(74, 68, 83, 0) 0%,
+      rgba(52, 44, 72, 0.32) 100%
+    ),
+    rgba(74, 68, 83, 0.12);
+  box-shadow: inset 0 0 12px #3d3c40;
+}
+.button-primary:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(91, 82, 104, 0) 0%,
+      rgba(44, 36, 99, 0.42) 100%
+    ),
+    rgba(53, 43, 119, 0.24);
+  box-shadow: inset 0 0 12px #3d3c40;
+}
+
+.menu-container {
+  z-index: 1000 !important;
+}
+
+.menuLink {
+  z-index: 1000 !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #040015;
+}
+
+#projects {
+  padding: 0 4rem 0 4rem;
+  z-index: 999;
+}
+
+.backProj {
+  background-color: rgba(4, 1, 17, 0.7) !important;
+}
+
+#contact {
+  padding: 5rem 4rem 1rem 4rem;
+  z-index: 999 !important;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .heroContainer {
+    margin-top: 13rem;
+    text-align: justify;
+  }
+
+  .heroVideo {
+    position: absolute !important;
+    top: -4rem !important;
+  }
+
+  .mobile-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-logo-container .logo-name {
+    margin-top: 0.5rem;
+    font-size: 16px;
+  }
+
+  .nav-logo {
+    margin-top: 7rem !important;
+  }
+  .menu-container {
+    width: 500px;
+    height: 100%;
+    background-color: rgba(1, 0, 20, 0.6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid #7042f861;
+    background-color: #0300145e;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    color: #d1d5db;
+  }
+
+  .menu-item a {
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .social-icons {
+    margin-top: 1.5rem;
+    border: 1px solid #7042f861;
+    border-radius: 9999px;
+    background-color: rgba(1, 0, 20, 0.3);
+    padding: 5px;
+  }
+
+  .social-item {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  .Welcome-text {
+    color: #ded3fa !important;
+    opacity: 1 !important;
+  }
+
+  .btnProj {
+    margin: 0 auto;
+    padding: 7px;
+  }
+
+  #projects {
+    padding: 1rem;
+  }
+
+  #contact {
+    padding: 0.2rem 1rem 0 1rem;
+  }
+}
