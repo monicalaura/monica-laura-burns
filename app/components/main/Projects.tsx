@@ -29,7 +29,7 @@ const Projects = () => {
       className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-10 lg:px-12"
     >
       <h2 className="text-center text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purpleBlue to-lightBlue mt-4 mb-8 md:mb-12">
-        My Projects
+        Selected Projects
       </h2>
       <div className="text-white flex flex-wrap md:flex-row justify-center items-center gap-2 py-6 projTabs">
         <ProjectTag
