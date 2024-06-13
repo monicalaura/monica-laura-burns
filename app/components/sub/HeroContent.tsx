@@ -30,8 +30,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 lg:text-6xl text-2xl text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
-            Web Developer with a{" "}
+          <span className="leading-[1.25]">
+            Web Designer with a{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purpleBlue to-lightBlue">
               Creative{" "}
             </span>
@@ -41,20 +41,20 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-grayBlue my-5 max-w-[600px]"
+          className="text-lg text-grayBlue my-5 max-w-[600px] leading-[1.25]"
         >
-          I am a dedicated frontend developer, and a citizen of the Digital
-          Nation community. I have a strong drive to challenge limits, explore
-          new frontiers, and staying up to date with the latest digital trends
-          for a sustainable technology.
+          I am a dedicated web designer, and a citizen of the Digital Nation
+          community. I have a strong drive to challenge limits, explore new
+          frontiers, and staying up to date with the latest digital trends for a
+          sustainable technology.
           <br />
           My primary focus is on user ergonomics, blending in a touch of
-          creativity while meeting a project's specific requirements. I
+          creativity while meeting a project&apos;s specific requirements. I
           understand both the practical aspect and creative vision behind user
           interface design, and I translate them into functional web pages.
           <br />
-          Web design and development are part of my daily life, and I can't
-          always draw a line between job and hobby.
+          Web design is part of my daily life, and I can&apos;t always draw a
+          line between job and hobby.
         </motion.p>
 
         <motion.a

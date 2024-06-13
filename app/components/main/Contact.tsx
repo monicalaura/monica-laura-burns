@@ -52,12 +52,12 @@ export default function Contact() {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue to-lightBlue my-2">
-          Let's Connect
+          Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm currently looking for new opportunities. If you have any questions
-          or simply want to say hello, I'll do my best to get back to you
-          quickly!
+          I&apos;m currently looking for new opportunities. If you have any
+          questions or simply want to say hello, I&apos;ll do my best to get
+          back to you quickly!
           <br />
           Or you can write me on{" "}
           <Link

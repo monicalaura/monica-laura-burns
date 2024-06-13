@@ -39,8 +39,8 @@ const Projects = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Next.js"
-          isSelected={tag === "Next.js"}
+          name="Web Design"
+          isSelected={tag === "Web Design"}
         />
         <ProjectTag
           onClick={handleTagChange}
@@ -54,13 +54,8 @@ const Projects = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web Design"
-          isSelected={tag === "Web Design"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Collaboration"
-          isSelected={tag === "Collaboration"}
+          name="Next.js"
+          isSelected={tag === "Next.js"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
